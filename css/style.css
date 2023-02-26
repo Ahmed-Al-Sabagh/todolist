@@ -1,0 +1,206 @@
+/* --------------------------------------------------------------------- */
+/* --------------------------------------------------------------------- */
+/* All Elements ... */
+* 
+{
+    border: 0%;
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box !important;
+    
+}
+
+
+
+/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------ */
+body
+{
+    background-color: #001c33;
+    scroll-behavior: smooth;
+    width: 100% !important;
+    height: 100vh !important;
+    position: relative;
+    color: white;
+    transition: 0.8s all;
+    -webkit-transition: 0.8s all;
+    -moz-transition: 0.8s all;
+    -ms-transition: 0.8s all;
+    -o-transition: 0.8s all;
+    
+}
+
+
+.container {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.form {
+    width: auto;
+    height: auto;
+    padding: 0.5rem;
+    background-color: rgba(255, 255,  255, 0.5);
+    box-shadow: 0.5px 0.2px 2px 0.8px #ccc;
+    margin: auto;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+
+
+#user-task {
+    width:70%;
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+    border-radius: 1.2rem;
+    -webkit-border-radius: 1.2rem;
+    -moz-border-radius: 1.2rem;
+    -ms-border-radius: 1.2rem;
+    -o-border-radius: 1.2rem;
+
+}
+
+#user-task:focus {
+    border: 1px solid #0f0;
+
+}
+
+
+
+#btn-add {
+    width: 110px;
+    color: white;
+    background-color: green;
+    height: 40px;
+    border: unset;
+    outline: unset;
+    border-radius: 1.5rem;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 1.5rem;
+    -ms-border-radius: 1.5rem;
+    -o-border-radius: 1.5rem;
+    opacity: 0.6;
+    transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -ms-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+}
+
+#btn-add:hover {
+    opacity: 1;
+}
+
+/* ------------------------------------- */
+/* ------------------------------------- */
+
+.title {
+    margin-top: 2rem;
+    border-bottom: 1px solid #fff;
+    padding: 1.2rem;
+    position: relative;
+}
+
+
+.title::after {
+    content: '';
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: solid 3px #fffddffd;
+    position: absolute;
+    top: 51px;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+}
+
+
+
+#title-task {
+    color:  green;
+}
+
+
+
+.tasks-content {
+    margin-top: 3rem;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    color: black;
+    background-color: white;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    text-align: left !important;
+}
+
+li {
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 400;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 0.5rem ;
+    padding: 0.2rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
+}
+
+li:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+li:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+
+#btn-del {
+    background-color: red !important;
+    width: auto !important;
+    height: auto !important;
+    color: white !important;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    border: unset;
+    outline: unset;
+    padding: 0.2rem;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.2s;
+    opacity: 0.6;
+}
+
+#btn-del:hover {
+    opacity: 1 !important;
+}
